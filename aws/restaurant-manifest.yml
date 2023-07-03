@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: restaurantapp
-          image: codedecode25/restaurant-listing-service:2
+          image: codedecode25/restaurant-listing-service:6
           imagePullPolicy: Always
           ports:
             - containerPort: 9091

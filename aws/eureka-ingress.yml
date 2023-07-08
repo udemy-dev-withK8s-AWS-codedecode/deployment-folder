@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: aws-ingress
+  name: eureka-aws-ingress
   #namespace: argocd
   annotations:
     kubernetes.io/ingress.class: alb

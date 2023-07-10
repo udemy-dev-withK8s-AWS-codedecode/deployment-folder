@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: angular-app-container
-          image: codedecode25/food-delivery-app-fe:latest  # Replace with your Docker image and tag
+          image: codedecode25/angularapp:16
           imagePullPolicy: Always
           ports:
             - containerPort: 80
